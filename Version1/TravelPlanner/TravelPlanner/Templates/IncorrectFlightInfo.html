@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Incorrect Flight Information</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container center-block">
+
+        <div class="panel panel-danger">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Oops, your flight information is incorrect.</div>
+            <div class="panel-body">
+                <p>Your Travel ID:  {{travel_id}}</p>
+            </div>
+
+            <!-- Table -->
+            <table class="table table-hover">
+                <tr>
+                    <td>Flight Info:</td>
+                    <td>{{flight_info}}</td>
+                </tr>
+                <tr>
+                    <td>Flight Date/Time:</td>
+                    <td>{{flight_datetime}}</td>
+                </tr>
+                <tr>
+                    <td>Flight Live State:</td>
+                    <td>NOT AVAILABLE</td>
+                </tr>
+
+                <tr>
+                    <td>Hotel Info:</td>
+                    <td>{{hotel_info}}</td>
+                </tr>
+                <tr>
+                    <td>Hotel Date/Time:</td>
+                    <td>{{hotel_datetime}}</td>
+                </tr>
+
+                <tr>
+                    <td>Place Info:</td>
+                    <td>{{loc_info}}</td>
+                </tr>
+                <tr>
+                    <td>Place Date/Time:</td>
+                    <td>{{loc_datetime}}</td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
