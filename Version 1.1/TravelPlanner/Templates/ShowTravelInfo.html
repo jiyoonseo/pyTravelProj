@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Show Travel Information</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container center-block">
+        <div class="panel panel-info">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Thank you for your submission.</div>
+            <div class="panel-body">
+                <p>Your Travel ID: <span style="color:#943ad5"> {{travel_id}} </span></p>
+            </div>
+
+            <!-- Table -->
+            <table class="table table-hover">
+
+                {{sorted_result}}
+
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
